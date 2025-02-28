@@ -1,0 +1,33 @@
+
+
+.alltasks {
+  display: flex;
+}
+.taskStage {
+  // background-color: #9ac46b;
+  background-color: #cde2b5;
+
+  // min-height: 500px;
+  height: fit-content;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 1px 4px #0000001a;
+  margin: 5px;
+  .stageHeader {
+    color:  #574a4a;
+    border-radius: 3px;
+    // background-color: rgb(255, 255, 255, 0.5);
+    // background-color: #ffffff80;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .taskCard{
+    width: 277px;
+    background-color: #e6f1da;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+}

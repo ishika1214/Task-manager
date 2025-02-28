@@ -1,0 +1,35 @@
+.boardPanel {
+  h1 {
+    color: #c2d076;
+    margin: 10px 0px;
+  }
+  // background-color: #fff;
+  background-color: #f3f4f2;
+  height: 100vh;
+  width: 100%;
+  // color: white;
+
+  .boardList {
+    display: flex;
+    background-color: #cde2b5;
+    // gap: 10px;
+    color: #574a4a;
+    .board {
+      padding: 10px;
+      //   border: 1px solid #cde2b5;
+      &__active {
+        background-color: #f3f4f2;
+        padding: 10px 20px;
+        border: 1px solid #574a4a;
+        border-bottom: none;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+      }
+    }
+    .addBoard-btn {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
