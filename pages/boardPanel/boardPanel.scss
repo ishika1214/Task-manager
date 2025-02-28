@@ -1,23 +1,33 @@
 .boardPanel {
+  padding: 20px;
   h1 {
-    color: #c2d076;
-    margin: 10px 0px;
+    // color: #c2d076;
+    padding: 10px 0px;
   }
   // background-color: #fff;
-  background-color: #f3f4f2;
+
   height: 100vh;
   width: 100%;
   // color: white;
-
+  .panel {
+    padding: 10px;
+    background-color: #f3f4f2;
+    // margin: 10px;
+  }
   .boardList {
     display: flex;
     background-color: #cde2b5;
+    border-radius: 5px;
     // gap: 10px;
     color: #574a4a;
     .board {
-      padding: 10px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
       //   border: 1px solid #cde2b5;
       &__active {
+        display: flex;
+        align-items: center;
         background-color: #f3f4f2;
         padding: 10px 20px;
         border: 1px solid #574a4a;
@@ -30,6 +40,7 @@
       display: flex;
       align-items: center;
       text-align: center;
+      padding: 10px 20px;
     }
   }
 }
