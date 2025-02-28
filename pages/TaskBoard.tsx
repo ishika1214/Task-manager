@@ -12,7 +12,7 @@ const TaskBoard = () => {
             <AddIcon />
           </div>
         </div>
-        <Card className="taskCard">
+        <Card className="taskCard   ">
           <p>Task name</p>
           <p>Task description</p>
         </Card>
